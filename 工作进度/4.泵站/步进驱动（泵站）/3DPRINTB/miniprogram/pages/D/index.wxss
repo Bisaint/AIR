@@ -1,0 +1,3 @@
+/* pages/D/index.wxss */page{
+  background:rgba(129, 124, 113, 0.425);
+}

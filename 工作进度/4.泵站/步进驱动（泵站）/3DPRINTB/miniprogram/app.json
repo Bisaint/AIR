@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/A/index",
+    "pages/A/A/A",
+    "pages/B/index",
+    "pages/B/A/A",
+    "pages/B/B/A",
+    "pages/C/index",
+    "pages/D/index"
+  ],
+  "tabBar": {
+    "color": "#636e7b",
+    "selectedColor": "#1d2939",
+    "borderStyle": "black",
+    "backgroundColor": "#1AA094",
+    "list": [
+      {
+        "pagePath": "pages/A/index",
+        "iconPath": "images/A/2.png",
+        "selectedIconPath": "images/A/2d.png",
+        "text": "面板"
+      },
+      {
+        "pagePath": "pages/B/index",
+        "iconPath": "images/A/3.png",
+        "selectedIconPath": "images/A/3d.png",
+        "text": "控制"
+      },
+      {
+        "pagePath": "pages/C/index",
+        "iconPath": "images/A/4.png",
+        "selectedIconPath": "images/A/4d.png",
+        "text": "库"
+      },
+      {
+        "pagePath": "pages/D/index",
+        "iconPath": "images/A/5.png",
+        "selectedIconPath": "images/A/5d.png",
+        "text": "工具"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "自定义导航栏",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "usingComponents": {
+    "navBar": "/components/navBar/navBar"
+  },
+  "sitemapLocation": "sitemap.json"
+}

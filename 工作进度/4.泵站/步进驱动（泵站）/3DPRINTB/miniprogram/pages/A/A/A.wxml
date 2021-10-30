@@ -1,0 +1,54 @@
+<view class='main-wraper'>
+    <navBar title='在线设备' background='#1AA094' color='#fff' back="{{true}}" home="{{true}}" iconTheme='white' bindback="handlerGobackClick" bindhome="handlerGohomeClick"></navBar>
+</view>
+<view class="neA"style="width:150rpx">
+  <text>控制器</text>
+</view>
+<view class="neC"style="width:180rpx">
+  <text>移动台</text>
+</view>
+<view class="neD"style="width:130rpx">
+  <text>{{A_status}}</text>
+</view>
+<view class="neG"style="width:180rpx">
+  <text>混合器1</text>
+</view>
+<view class="neH"style="width:130rpx">
+  <text>{{B_status}}</text>
+</view>
+<view class="neI"style="width:180rpx">
+  <text>混合器2</text>
+</view>
+<view class="neJ"style="width:130rpx">
+  <text>{{C_status}}</text>
+</view>
+<view class="neK"style="width:180rpx">
+  <text>混合器3</text>
+</view>
+<view class="neL"style="width:130rpx">
+  <text>{{led_status}}</text>
+</view>
+<view class="neA1"style="width:180rpx">
+  <text>清洗泵</text>
+</view>
+<view class="neA2"style="width:130rpx">
+  <text>{{device_status}}</text>
+</view>
+<view class="neA3"style="width:180rpx">
+  <text>混合器4</text>
+</view>
+<view class="neA4"style="width:130rpx">
+  <text>{{WINND}}</text>
+</view>
+<view class="neA5"style="width:180rpx">
+  <text>混合器5</text>
+</view>
+<view class="neA6"style="width:130rpx">
+  <text>{{WINWD}}</text>
+</view>
+<view class="neA7"style="width:180rpx">
+  <text>混合器6</text>
+</view>
+<view class="neA8"style="width:130rpx">
+  <text>{{led_status}}</text>
+</view>

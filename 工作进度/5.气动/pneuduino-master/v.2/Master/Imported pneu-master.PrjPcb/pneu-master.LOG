@@ -1,0 +1,32 @@
+Importer Log Report
+Project : pneu-master.PrjPcb
+
+Section : Analyze Document - D:\обть\pneuduino-master\v.2\Master\pneu-master.brd
+    Analyzing data of D:\обть\pneuduino-master\v.2\Master\pneu-master.brd
+    Load settings
+    Load layers 143
+    Load Library "SmartPrj"
+    Load Packages 1
+    Load Library "varistor"
+    Load Packages 1
+    Load Library "wuerth-elektronik"
+    Load Packages 1
+    Load Library "zetex"
+    Load Packages 1
+    Load Library "rcl"
+    Load Packages 2
+    Load Library "SparkFun-Connectors"
+    Load Packages 1
+    Load Library "adafruit"
+    Load Packages 4
+    Load Library "SparkFun"
+    Load Packages 2
+    Load Library "digikey"
+    Load Packages 2
+    Load Library "SparkFun-Capacitors"
+    Load Packages 1
+    Load Library "SparkFun-Resistors"
+    Load Packages 1
+    Load Library "SparkFun-Electromechanical"
+    Load Packages 1
+EndSection

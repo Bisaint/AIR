@@ -1,0 +1,51 @@
+<view class='main-wraper'>
+    <navBar title='控制面板' background='#1AA094' color='#fff' back="{{false}}" home="{{false}}" iconTheme='white' bindback="handlerGobackClick" bindhome="handlerGohomeClick"></navBar>
+</view>
+  <button class='bbq' bindtap="SB"
+    style="width: 668rpx; height: 202rpx; display: flex; box-sizing: border-box; left: 40rpx; top: -17rpx; position: absolute">
+  
+    <text style="position: relative; font-size: 30rpx; color: #e2e2e2; left: -148rpx; top: 150rpx">在线设备
+    </text>
+    <text style="position:relative;font-size: 45rpx;left: -45rpx; top: 65rpx">{{K}}</text>
+    <text style="position: relative; font-size: 30rpx; color: #e2e2e2; left: 78rpx; top: 40rpx">故障设备</text>
+    <text style="position:relative;font-size: 30rpx;left: 78rpx; top:10rpx">0</text>
+    <text style="position: relative; font-size: 30rpx; color: #e2e2e2; left: -148rpx; top: -110rpx">设备总数</text>
+    <text style="position:relative;font-size: 30rpx;left: -148rpx; top: -140rpx">8</text>
+  </button>
+  
+<button class='bbq1' bindtap="xhkb"
+  style="width: 671rpx; position: absolute; left: 38rpx; top: 216rpx; height: 202rpx; display: flex; box-sizing: border-box">
+  <text
+    style="position: relative; left: -148rpx; top: 90rpx; width: 187rpx; height: 40rpx; display: block; box-sizing: border-box; font-size: 30rpx; color: #e2e2e2">打印进度</text>
+    <text style="position:relative; left: 10rpx; top: 60rpx; font-size:45 rpx;">54.4%</text>
+  <text
+    style="position: relative; font-size: 30rpx; left: -148rpx; top: 30rpx; color: #e2e2e2; width: 156rpx; height: 40rpx; display: block; box-sizing: border-box">预计时长</text>
+    <text style="position:relative;left: -148rpx;font-size: 30rpx; top: 30rpx;">01:20:22</text>
+  <text
+    style="position: relative; font-size: 30rpx; left: 78rpx; top: -85rpx; color: #e2e2e2; width: 156rpx; height: 40rpx; display: block; box-sizing: border-box">剩余时长</text>
+  <text style="position:relative;left: 78rpx;font-size: 30rpx; top: -80rpx;">01:20:22</text>
+</button>
+<button class='bbq2' bindtap="qtxy"
+  style="width: 671rpx; position: absolute; left: 38rpx; top: 448rpx; height: 202rpx; display: flex; box-sizing: border-box">
+
+  <text style="position: relative; font-size: 30rpx; color: #e2e2e2; left: -145rpx; top:90rpx; width: 181rpx; height: 38rpx; display: block; box-sizing: border-box">方案库数量</text>
+  <text style="position:relative;left: 10rpx;font-size: 45rpx; top: 60rpx;">248</text>
+<text style="position: relative; font-size: 30rpx; color: #e2e2e2; left: -148rpx; top: 20rpx; width: 181rpx; height: 38rpx; display: block; box-sizing: border-box">材料库</text>
+<text style="position:relative;left: -148rpx;font-size: 30rpx; top: 20rpx;">122</text>
+<text style="position: relative; font-size: 30rpx; color: #e2e2e2; left: 78rpx; top: -90rpx; width: 181rpx; height: 38rpx; display: block; box-sizing: border-box">公式库</text>
+<text style="position:relative;left: 78rpx;font-size: 30rpx; top: -90rpx;">48</text>
+
+</button>
+<button class='bbq3' bindtap="cjjs"
+  style="width: 671rpx; position: absolute; left: 38rpx; top: 450rpx; height: 202rpx; display: flex; box-sizing: border-box">
+
+  <text style="position: relative; font-size: 30rpx; color: #e2e2e2; left: -148rpx; top: 10rpx">耗材开销</text>
+<text style="position: relative; font-size: 30rpx; color: #e2e2e2; left: -148rpx; top: 23rpx">上周开销</text>
+<text style="position: relative; font-size: 30rpx; color: #e2e2e2; left: 78rpx; top: -50rpx">上月开销</text>
+
+
+</button>
+<image style="position: relative; left: 50rpx; top: 306rpx; width: 97rpx; height: 85rpx; display: block; box-sizing: border-box" src="/images/is-document.png" />
+<image style="position: relative; left: 50rpx; top: -10rpx; width: 97rpx; height: 85rpx; display: block; box-sizing: border-box" src="/images/is-user.png" />
+<image style="position: relative; left: 50rpx; top: 619rpx; width: 97rpx; height: 85rpx; display: block; box-sizing: border-box" src="/images/is-money.png" />
+<image style="position: relative; left: 50rpx; top: 288rpx; width: 97rpx; height: 85rpx; display: block; box-sizing: border-box" src="/images/is-document.png" />

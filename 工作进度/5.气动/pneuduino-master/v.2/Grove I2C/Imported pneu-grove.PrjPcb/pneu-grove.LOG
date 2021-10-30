@@ -1,0 +1,24 @@
+Importer Log Report
+Project : pneu-grove.PrjPcb
+
+Section : Analyze Document - D:\обть\pneuduino-master\v.2\Grove I2C\pneu-grove.brd
+    Analyzing data of D:\обть\pneuduino-master\v.2\Grove I2C\pneu-grove.brd
+    Load settings
+    Load layers 143
+    Load Library "SmartPrj"
+    Load Packages 1
+    Load Library "rcl"
+    Load Packages 1
+    Load Library "adafruit"
+    Load Packages 1
+    Load Library "SparkFun-Capacitors"
+    Load Packages 1
+    Load Library "SparkFun-Resistors"
+    Load Packages 1
+    Load Library "Connector"
+    Load Packages 2
+    Load Library "seeedleo"
+    Load Packages 1
+    Load Library "digikey"
+    Load Packages 1
+EndSection

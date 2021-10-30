@@ -1,0 +1,67 @@
+page{
+  background:rgba(129, 124, 113, 0.425);
+}
+.bbq{
+  height: 200rpx;
+    margin-top: 200rpx;
+    background-color:rgba(68, 165, 128, 0.959);
+  box-shadow: 2px 2px 4px 1px #8686868e;
+  color:white;
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+right: 520rpx;
+    position:  absolute;
+  z-index: 0;
+  font-size: 40rpx;
+}
+.bbq1{
+  height: 200rpx;
+    margin-top: 200rpx;
+    background-color:rgba(209, 90, 90, 0.952);
+  box-shadow: 2px 2px 4px 1px #8686868e;
+  color:white;
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+right: 280rpx;
+    position:  absolute;
+  z-index: 0;
+  font-size: 40rpx;
+}
+.bbq2{
+  height: 200rpx;
+    margin-top: 200rpx;
+    background-color:rgba(49, 119, 199, 0.973);
+  box-shadow: 2px 2px 4px 1px #8686868e;
+  color:white;
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+right: 40rpx;
+    position:  absolute;
+  z-index: 0;
+  font-size: 40rpx;
+}
+.bbq3{
+  height: 200rpx;
+    margin-top: 430rpx;
+    background-color:rgba(8, 53, 90, 0.945);
+  box-shadow: 2px 2px 4px 1px #8686868e;
+  color:white;
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+right: 520rpx;
+    position:  absolute;
+  z-index: 0;
+  font-size: 40rpx;
+}

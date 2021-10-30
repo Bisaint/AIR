@@ -1,0 +1,24 @@
+#havetags span,
+#addtags span {
+    display: inline-block;
+    padding: 0 0 0 10px;
+    margin: 2px 5px;
+    border: 1px solid #000;
+}
+
+#havetags span::after,
+#addtags span::after {
+    content: "+";
+    display: inline-block;
+    padding: 0 10px;
+    background-color: #00ffff;
+    margin-left: 5px;
+}
+
+#addtags span::after {
+    content: "x";
+}
+
+.C1 {
+    text-align: center
+}

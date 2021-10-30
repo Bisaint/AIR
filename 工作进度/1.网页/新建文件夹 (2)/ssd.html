@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>材料合成</title>
+    <script src="1.js"></script>
+    <link rel="stylesheet" href="1.css">
+</head>
+
+<body>
+    <h2>低聚物</h2>
+    <form action="">
+        <select id="province">
+            <option value="">--请选择--</option>
+        </select>
+    </form>
+    <script type="text/javascript">
+        //json数据，可以直接定义使用
+        var data = [{
+            id: 100,
+            name: '广东'
+        }, {
+            id: 101,
+            name: '广西'
+        }, {
+            id: 102,
+            name: '云南'
+        }];
+        var provinceEle = document.getElementById("province");
+        for (let i = 0; i < data.length; i++) {
+            //new Option() 参数为选项的内容，参数2为选项的value
+            provinceEle.add(new Option(data[i].name, data[i].id));
+        }
+    </script>
+    <h2>单体（稀释剂）</h2>
+    <form>
+        <select>
+        <option>ACMO</option>
+        </select>
+    </form>
+    <h2>光引发剂</h2>
+    <form>
+        <select>
+        <option>irgacure819</option>
+        <option>TPO</option>
+        </select>
+    </form>
+    <h2>光学助剂</h2>
+    <form>
+        <select>
+        <option>颜料（色浆）</option>
+        <option>散射剂</option>
+        <option>吸收剂</option>
+        </select>
+    </form>
+    <h2>填料</h2>
+    <form>
+        <select>
+        <option>ZrO2</option>
+        </select>
+    </form>
+    <h2>助剂</h2>
+    <form>
+        <select>
+        <option>BYK-111分散剂</option>
+        </select>
+    </form>
+    <h2>抗老化剂</h2>
+    <form>
+        <select>
+        </select>
+    </form>
+</body>
+
+</html>

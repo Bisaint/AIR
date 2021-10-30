@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="input" size="100" onchange="document.getElementById('output').value=getResult(this.value)" />
+    <input type="text" id="output" />
+    <script language="javascript">
+        function getResult(str) {
+            str = str.split('+');
+            var result = 0;
+            for (var i = 0; i < str.length; i++) {
+                var temp = str[i].split('*');
+                if (temp.length < 2) return '输入不合法';
+                for (var j = 0; j < 2; j++) {
+                    if (!isNumber(temp[j])) return '请输入数字';
+                }
+                result = result + temp[0] * temp[1];
+            }
+            return result;
+        }
+
+        function isNumber(num) {
+            return /^[0-9]*[1-9][0-9]*$/.test(num);
+        }
+    </script>
+</body>
+
+</html>
+
+<!-- 
+1.数据库 mysql 建表 外键逻辑 
+2.前后端分离开发 --后端逻辑及代码规则 
+3.代码优化 -->

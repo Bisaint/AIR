@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <select id="a" onchange="show_input();">
+        <option value=''>--请选择--</option>
+        <option value='1'>1</option>
+        <option value='2'>2</option>
+        <option value='3'>3</option>
+        </select>
+    <input type="text" id="b">
+    <script type="text/javascript">
+        function show_input() {
+            var select_value = document.getElementById('a').value;
+            document.getElementById('b').value = select_value;
+        }
+    </script>
+</body>
+
+</html>

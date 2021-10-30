@@ -1,0 +1,26 @@
+Importer Log Report
+Project : pneu-sensor.PrjPcb
+
+Section : Analyze Document - D:\обть\pneuduino-master\v.2\Sensor\pneu-sensor.brd
+    Analyzing data of D:\обть\pneuduino-master\v.2\Sensor\pneu-sensor.brd
+    Load settings
+    Load layers 160
+    Load Library "Seeed-Connector"
+    Load Packages 1
+    ERROR: Unhandled typepackages3d
+    Load Library "SparkFun-Connectors"
+    Load Packages 2
+    Load Library "SparkFun-Capacitors"
+    Load Packages 2
+    Load Library "SparkFun-LED"
+    Load Packages 1
+    Load Library "Seeed-Resistor"
+    Load Packages 1
+    ERROR: Unhandled typepackages3d
+    Load Library "SparkFun-IC-Power"
+    Load Packages 1
+    Load Library "SparkFun-IC-Conversion"
+    Load Packages 1
+    ERROR: Unhandled typemfgpreviewcolors
+    ERROR: Unhandled typeerrors
+EndSection

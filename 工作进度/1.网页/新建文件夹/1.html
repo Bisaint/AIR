@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>材料合成</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+
+<body>
+    <h1 class="C1">材料合成</h1>
+    <h2>低聚物</h2>
+    <button onclick="copy0()">
+            添加
+        </button>
+    <br/>
+    <div id="sel0">
+        <select id="province0" onchange="show_input();">
+            <option value="">--请选择--</option>
+        </select>
+        <input type="text" id="cps0">
+    </div>
+
+    <h2>单体（稀释剂）</h2>
+    <button onclick="copy1()">
+       添加
+    </button>
+    <br/>
+    <div id="sel1">
+        <select id="province1">
+        <option value="">--请选择--</option>
+    </select>
+    </div>
+
+    <h2>光引发剂</h2>
+    <button onclick="copy2()">
+       添加
+    </button>
+    <br/>
+    <div id="sel2">
+        <select id="province2">
+        <option value="">--请选择--</option>
+    </select>
+    </div>
+
+    <h2>光学助剂</h2>
+    <button onclick="copy3()">
+       添加
+    </button>
+    <br/>
+    <div id="sel3">
+        <select id="province3">
+        <option value="">--请选择--</option>
+    </select>
+    </div>
+
+    <h2>填料</h2>
+    <button onclick="copy4()">
+       添加
+    </button>
+    <br/>
+    <div id="sel4">
+        <select id="province4">
+        <option value="">--请选择--</option>
+    </select>
+    </div>
+
+    <h2>助剂</h2>
+    <button onclick="copy5()">
+       添加
+    </button>
+    <br/>
+    <div id="sel5">
+        <select id="province5">
+        <option value="">--请选择--</option>
+    </select>
+    </div>
+    <h2>公式计算</h2>
+    <input type="text" id="input" size="100" onchange="document.getElementById('output').value=getResult(this.value)" />
+    <input type="text" id="output" />
+    <script language="javascript">
+        function getResult(str) {
+            str = str.split('+');
+            var result = 0;
+            for (var i = 0; i < str.length; i++) {
+                var temp = str[i].split('*');
+                if (temp.length < 2) return '输入不合法';
+                for (var j = 0; j < 2; j++) {
+                    if (!isNumber(temp[j])) return '请输入数字';
+                }
+                result = result + temp[0] * temp[1];
+            }
+            return result;
+        }
+
+        function isNumber(num) {
+            return /^[0-9]*[1-9][0-9]*$/.test(num);
+        }
+    </script>
+    <script src="1.js"></script>
+</body>
+
+</html>

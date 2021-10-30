@@ -1,0 +1,14 @@
+<view class='main-wraper'>
+    <navBar title='打印控制' background='#1AA094' color='#fff' back="{{false}}" home="{{false}}" iconTheme='white' bindback="handlerGobackClick" bindhome="handlerGohomeClick"></navBar>
+</view>
+<button bindtap="A" style="position: relative; left: -190rpx; top: 36rpx; background-color: rgba(216, 216, 216, 0); box-shadow: 2px 2px 4px 1px #8686868e; width: 296rpx; height: 108rpx; display: block; box-sizing: border-box">移动台控制</button>
+<button bindtap="B" style="position: relative; left: 183rpx; top: -73rpx; background-color: rgba(216, 216, 216, 0); box-shadow: 2px 2px 4px 1px #8686868e; width: 296rpx; height: 108rpx; display: block; box-sizing: border-box">蠕动泵控制</button>
+
+
+
+
+
+
+
+
+

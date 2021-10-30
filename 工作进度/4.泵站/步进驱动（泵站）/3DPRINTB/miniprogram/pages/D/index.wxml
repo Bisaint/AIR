@@ -1,0 +1,3 @@
+<view class='main-wraper'>
+    <navBar title='工具包' background='#1AA094' color='#fff' back="{{false}}" home="{{false}}" iconTheme='white' bindback="handlerGobackClick" bindhome="handlerGohomeClick"></navBar>
+</view>

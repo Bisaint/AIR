@@ -1,0 +1,24 @@
+Importer Log Report
+Project : pneu-io.PrjPcb
+
+Section : Analyze Document - D:\обть\pneuduino-master\v.2\IO\pneu-io.brd
+    Analyzing data of D:\обть\pneuduino-master\v.2\IO\pneu-io.brd
+    Load settings
+    Load layers 143
+    Load Library "SmartPrj"
+    Load Packages 1
+    Load Library "rcl"
+    Load Packages 1
+    Load Library "adafruit"
+    Load Packages 1
+    Load Library "SparkFun"
+    Load Packages 2
+    Load Library "digikey"
+    Load Packages 6
+    Load Library "SparkFun-Capacitors"
+    Load Packages 1
+    Load Library "SparkFun-Resistors"
+    Load Packages 1
+    Load Library "SparkFun-Electromechanical"
+    Load Packages 1
+EndSection
